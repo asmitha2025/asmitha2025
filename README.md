@@ -1,6 +1,6 @@
 # Hi, I'm Asmitha M 👋
 
-I’m a **Software Engineer, Data Scientist, and Data Engineer** who enjoys building intelligent systems for messy, real-world problems — traffic prediction, incident response, conversational AI safety, and scalable data platforms.
+I’m a **Software Engineer | Data Scientist | Data Engineer** who enjoys building intelligent systems for messy, real-world problems — traffic prediction, incident response, conversational AI safety, and scalable data platforms.
 
 Most of what I build comes back to one question:
 
