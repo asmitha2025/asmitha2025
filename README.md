@@ -1,10 +1,3 @@
-
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=asmitha2025&show_icons=true&theme=dark)
-[![GitHub Streak](https://streak-stats.demolab.com?user=asmitha2025&theme=dark)](https://git.io/streak-stats)
-![](https://komarev.com/ghpvc/?username=asmitha2025&color=blue)
-
 # Hi, I'm Asmitha M 👋
 
 I’m a **Software Engineer, Data Scientist, and Data Engineer** who enjoys building intelligent systems for messy, real-world problems — traffic prediction, incident response, conversational AI safety, and scalable data platforms.
@@ -12,6 +5,16 @@ I’m a **Software Engineer, Data Scientist, and Data Engineer** who enjoys buil
 Most of what I build comes back to one question:
 
 > **How does a system know when to trust itself, and when not to?**
+
+---
+
+## GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=asmitha2025\&show_icons=true\&theme=dark)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=asmitha2025\&theme=dark)](https://git.io/streak-stats)
+
+![Profile Views](https://komarev.com/ghpvc/?username=asmitha2025\&color=blue)
 
 ---
 
@@ -50,7 +53,7 @@ I design data pipelines, ingestion workflows, validation layers, analytics-ready
 
 ## Currently Exploring
 
-I’m currently carrying the same “know what you don’t know” thinking from traffic prediction and incident response into conversational AI and reliable ML systems.
+I’m currently carrying the same **“know what you don’t know”** thinking from traffic prediction and incident response into conversational AI and reliable ML systems.
 
 ### Active Work
 
@@ -124,19 +127,14 @@ Researching training-free methods to reduce redundant visual encoding while pres
 
 ---
 
-## GitHub Stats
-
-![Asmitha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=asmitha2025\&show_icons=true\&theme=tokyonight)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=asmitha2025\&theme=tokyonight)
-
----
-
 ## Connect With Me
 
 🌐 **Portfolio:** [asmitha2025.github.io](https://asmitha2025.github.io)
+
 💼 **LinkedIn:** [asmitha-m-1695b331b](https://www.linkedin.com/in/asmitha-m-1695b331b)
+
 🤗 **Hugging Face:** [Asmitha-28](https://huggingface.co/Asmitha-28)
+
 📧 **Email:** [asmitha8825@gmail.com](mailto:asmitha8825@gmail.com)
 
 ---
