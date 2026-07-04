@@ -31,7 +31,7 @@ Most of what I build comes back to one question:
 
 🤝 Team Lead for the **Meta PyTorch OpenEnv Challenge**, working across reviewing, mentoring, debugging, and technical coordination
 
-🏁 National-level hackathon finalist, including **Microsoft Imagine Cup**, **UIDAI Hackathon**, and other innovation challenges
+🏁 National-level hackathon , including **Microsoft Imagine Cup**, **UIDAI Hackathon**, and other innovation challenges
 
 ---
 
