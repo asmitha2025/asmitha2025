@@ -6,18 +6,6 @@ Most of what I build comes back to one question:
 
 > **How does a system know when to trust itself, and when not to?**
 
----
-
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=asmitha2025\&show_icons=true\&theme=dark)
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=asmitha2025\&theme=dark)](https://git.io/streak-stats)
-
-![Profile Views](https://komarev.com/ghpvc/?username=asmitha2025\&color=blue)
-
----
-
 ## About Me
 
 🎓 **B.Sc. Data Science** — Bon Secours College for Women, Bharathidasan University
