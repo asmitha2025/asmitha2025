@@ -197,7 +197,6 @@ I don't want AI systems to simply produce an answer.
 
 I want them to understand:
 
-```text
 Should I compute?
         ↓
 Should I act?
