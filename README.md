@@ -1,119 +1,210 @@
 # Hi, I'm Asmitha M 👋
 
-I’m a **Software Engineer | Data Scientist | Data Engineer** who enjoys building intelligent systems for messy, real-world problems — traffic prediction, incident response, conversational AI safety, and scalable data platforms.
+### AI/ML Engineer | Data Scientist | Data Engineer
 
-Most of what I build comes back to one question:
+I build **AI and data systems that make better decisions under uncertainty** — from efficient video understanding and uncertainty-aware decision layers to backend services and scalable data pipelines.
 
-> **How does a system know when to trust itself, and when not to?**
+> **I’m interested in one question: when should an intelligent system compute, act, ask, or defer?**
+
+---
 
 ## About Me
 
-🎓 **B.Sc. Data Science** — Bon Secours College for Women, Bharathidasan University
-**CGPA:** 9.3 / 10
+🎓 **B.Sc. Data Science** — Bon Secours College for Women, Bharathidasan University  
+**CGPA:** 9.3/10
 
-🎓 Currently pursuing **M.Sc. Data Science** at **SASTRA Deemed University**
+🎓 **M.Sc. Data Science** — SASTRA Deemed University  
+Part-time, weekends
 
-💻 Interested in **software engineering, backend systems, data engineering, machine learning, Bayesian inference, and AI safety**
+💻 **Systems & Automation Platform Intern — Scion R&D**  
+Built backend validation services using REST APIs, processing and validating **50,000+ records across 6 validation layers** during a 6-month internship. :chatgpt-content-reference{index="1"}
 
-📊 I enjoy solving ambiguous real-world problems where data, systems, and decision-making come together
+🤖 **Independent AI Researcher & Open-Source Developer**
 
-🤝 Team Lead for the **Meta PyTorch OpenEnv Challenge**, working across reviewing, mentoring, debugging, and technical coordination
+🏆 **Team Lead — Meta PyTorch OpenEnv Hackathon 2026**  
+Worked on **IncidentMind**, an OpenEnv-based incident-response environment, alongside team members.
 
-🏁 National-level hackathon , including **Microsoft Imagine Cup**, **UIDAI Hackathon**, and other innovation challenges
+🏁 Participated in innovation challenges including **Microsoft Imagine Cup, UIDAI Hackathon, and Zoho Cliq Developer Contest**. :chatgpt-content-reference{index="2"}
 
 ---
 
 ## What I Build
 
-### Software Engineering
+### 🤖 AI & Machine Learning
 
-I build backend and system-oriented applications using APIs, databases, clean architecture, and reliable engineering practices.
+I build systems around **uncertainty, decision-making, computer vision, NLP, and efficient inference**.
 
-### Data Science
+My focus is not only on making models work, but on understanding **when a model should act and when it should not**.
 
-I work on machine learning, Bayesian inference, prediction systems, uncertainty modeling, and decision-support applications.
+### ⚙️ Software Engineering
 
-### Data Engineering
+I build backend services, REST APIs, data-intensive applications, and engineering workflows with an emphasis on reliability, testing, and maintainability.
 
-I design data pipelines, ingestion workflows, validation layers, analytics-ready datasets, and scalable data systems.
+### 📊 Data Engineering
+
+I design data pipelines, validation systems, ETL workflows, data models, and analytics-ready infrastructure.
 
 ---
 
-## Currently Exploring
+## Featured Projects
 
-I’m currently carrying the same **“know what you don’t know”** thinking from traffic prediction and incident response into conversational AI and reliable ML systems.
+### 🚀 frameroute
 
-### Active Work
+**CPU-first, change-aware frame selection for Video AI**
 
-* **Dialogflow Sentinel**
-  A Dialogflow CX safety scanner paired with a Bayesian escalation-confidence webhook.
+An open-source Python/PyPI library that decides **which video frames are worth sending to expensive vision models**.
 
-* **PTIS v2.0**
-  A Bayesian traffic inference system focused on congestion prediction, uncertainty-aware routing, and publication readiness.
+- CPU-based visual-change detection
+- Streaming frame-selection router
+- MCP server
+- CLIP / OCR / Whisper integrations
+- 38 test files
+- Processed **46 of 40,984 frames** in one 23-minute lecture at ~120 FPS CPU
+- At equal model calls, matched or beat uniform sampling on **4/4 lectures** in retrieval testing
+- Achieved **67–74% fewer calls** than every-frame processing on two lectures
 
-* **ADVE: Anchor-Delta Video Embedding**
-  A training-free approach for reducing redundant video encoding while preserving semantic meaning.
+The goal: **spend compute where the visual information actually changes.** :chatgpt-content-reference{index="3"}
 
-* **Cloud Security for ML Systems**
-  Learning IAM, DevSecOps, secure routing, observability, and the SRE side of AI systems.
+---
+
+### 🧠 SupportMind
+
+**Uncertainty-aware decision layer for AI systems**
+
+SupportMind uses model uncertainty and competing-intent detection to decide whether a system should:
+
+**Act → Ask → Defer**
+
+It combines MC Dropout, entropy-based uncertainty, multi-intent detection, FastAPI, and CI workflows.
+
+On an out-of-distribution evaluation, the system achieved **100% precision on the cases it chose to act on**, while maintaining a conservative decision boundary. :chatgpt-content-reference{index="4"}
+
+---
+
+### 🎥 ADVE — Anchor-Delta Video Embedding
+
+A training-free approach for reducing redundant visual encoding.
+
+Instead of running CLIP on every frame, ADVE processes selected anchor frames and approximates intermediate representations from tracked visual changes.
+
+- **60% fewer model calls** on MOT17
+- **0.992 cosine similarity**
+- **65% lower GPU memory**
+- **62.6% savings** on a 13-category CCTV evaluation at 0.995 similarity
+
+Research publication: **Zenodo 20748839** :chatgpt-content-reference{index="5"}
+
+---
+
+### 🛡️ LLM Sentinel Pro
+
+A semantic safety checker designed to identify potentially unsafe chatbot responses.
+
+- 9-layer semantic checking pipeline
+- **82% accuracy**
+- **100% recall**
+- **73.5% precision**
+- Processed **5,000 answers in ~12 seconds on CPU**
+
+The project also revealed a **40% false-positive rate** on a small evaluation set, which is an important limitation I continue to investigate. :chatgpt-content-reference{index="6"}
+
+---
+
+### ⚡ OPTI-FAB
+
+**Streaming edge inference for wafer-defect detection**
+
+- Reduced latency from **8.3 ms → 3.0 ms**
+- **63.9% latency reduction**
+- **333 FPS**
+- TensorRT FP16: **0.79 ms**
+- **91% full-frame accuracy**
+
+An early-exit experiment reduced accuracy substantially, providing a useful engineering trade-off finding. :chatgpt-content-reference{index="7"}
+
+---
+
+### 🚦 PTIS v2.0
+
+A Bayesian traffic-intelligence system combining **destination inference with a capacity safety gate**.
+
+Simulation results:
+
+- **8,000 vehicles**
+- **23,314 observations**
+- **0 gate violations**
+
+Current results are simulation-based and have not yet been field-tested. :chatgpt-content-reference{index="8"}
+
+---
+
+### 🔥 IncidentMind
+
+An **OpenEnv reinforcement-learning environment for production incident response**.
+
+It includes:
+
+- 9 incident scenarios
+- Deterministic evaluation
+- Clarification actions
+- Structured incident-response workflows
+
+Built as a team project during the **Meta PyTorch OpenEnv Hackathon 2026**. :chatgpt-content-reference{index="9"}
 
 ---
 
 ## Technical Interests
 
-* Software Engineering
-* Backend Development
-* Data Engineering
-* Machine Learning
-* Bayesian Inference
-* Conversational AI Safety
-* Large Language Models
-* Cloud Security
-* DevSecOps
-* Reliability Engineering
-* Research Engineering
+- Artificial Intelligence & Machine Learning
+- Computer Vision
+- NLP & LLM Systems
+- Bayesian Inference
+- Uncertainty Quantification
+- AI Safety & Reliability
+- Backend Engineering
+- Data Engineering
+- Efficient Model Inference
+- DevSecOps & Cloud Security
+- Research Engineering
 
 ---
 
 ## Tech Stack
 
-**Languages:** Python, SQL, Java, JavaScript
+**Languages**  
+Python · SQL · Java · JavaScript
 
-**Backend:** FastAPI, REST APIs, Spring Boot basics, API design
+**Backend & APIs**  
+FastAPI · REST APIs · Spring Boot
 
-**Data Engineering:** PostgreSQL, ETL pipelines, data validation, data modeling, Power BI
+**Data Engineering**  
+PostgreSQL · ETL Pipelines · Data Validation · Data Modeling · PySpark · Power BI
 
-**ML / AI:** Scikit-learn, PyTorch, TensorFlow, NLP, LLM workflows
+**AI / ML**  
+PyTorch · TensorFlow · Scikit-learn · NLP · Computer Vision · LLM Workflows
 
-**Cloud & DevOps:** Git, GitHub Actions, Docker, Linux, AWS basics
+**Infrastructure & DevOps**  
+Docker · Linux · Git · GitHub Actions · AWS
 
-**Exploring:** Dialogflow CX, IAM, DevSecOps, secure routing, SRE practices
-
----
-
-## Featured Focus Areas
-
-### Software Systems
-
-Building backend services, APIs, and system workflows that are practical, reliable, and maintainable.
-
-### Data Platforms
-
-Creating pipelines that clean, validate, transform, and prepare data for analytics and machine learning.
-
-### Bayesian Traffic Intelligence
-
-Building uncertainty-aware traffic prediction systems that reason about congestion, confidence, and routing decisions.
-
-### Conversational AI Safety
-
-Designing tools that help conversational agents detect unsafe, uncertain, or escalation-worthy situations.
-
-### Efficient Video Understanding
-
-Researching training-free methods to reduce redundant visual encoding while preserving semantic meaning.
+**Currently Exploring**  
+Dialogflow CX · IAM · DevSecOps · Secure Routing · SRE · Reliable AI Systems
 
 ---
+
+## My Engineering Philosophy
+
+I don't want AI systems to simply produce an answer.
+
+I want them to understand:
+
+```text
+Should I compute?
+        ↓
+Should I act?
+        ↓
+Should I ask?
+        ↓
+Should I defer?
 
 ## Connect With Me
 
