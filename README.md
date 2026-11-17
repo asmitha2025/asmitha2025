@@ -17,8 +17,7 @@ I build **AI and data systems that make better decisions under uncertainty** —
 Part-time, weekends
 
 💻 **Systems & Automation Platform Intern — Scion R&D**  
-Built backend validation services using REST APIs, processing and validating **50,000+ records across 6 validation layers** during a 6-month internship. :chatgpt-content-reference{index="1"}
-
+Built backend validation services using REST APIs, processing and validating **50,000+ records across 6 validation layers** during a 6-month internship. 
 🤖 **Independent AI Researcher & Open-Source Developer**
 
 🏆 **Team Lead — Meta PyTorch OpenEnv Hackathon 2026**  
