@@ -23,7 +23,7 @@ Built backend validation services using REST APIs, processing and validating **5
 🏆 **Team Lead — Meta PyTorch OpenEnv Hackathon 2026**  
 Worked on **IncidentMind**, an OpenEnv-based incident-response environment, alongside team members.
 
-🏁 Participated in innovation challenges including **Microsoft Imagine Cup, UIDAI Hackathon, and Zoho Cliq Developer Contest**. :chatgpt-content-reference{index="2"}
+🏁 Participated in innovation challenges including **Microsoft Imagine Cup, UIDAI Hackathon, and Zoho Cliq Developer Contest**.
 
 ---
 
@@ -76,8 +76,7 @@ SupportMind uses model uncertainty and competing-intent detection to decide whet
 
 It combines MC Dropout, entropy-based uncertainty, multi-intent detection, FastAPI, and CI workflows.
 
-On an out-of-distribution evaluation, the system achieved **100% precision on the cases it chose to act on**, while maintaining a conservative decision boundary. :chatgpt-content-reference{index="4"}
-
+On an out-of-distribution evaluation, the system achieved **100% precision on the cases it chose to act on**, while maintaining a conservative decision boundary. 
 ---
 
 ### 🎥 ADVE — Anchor-Delta Video Embedding
@@ -105,7 +104,7 @@ A semantic safety checker designed to identify potentially unsafe chatbot respon
 - **73.5% precision**
 - Processed **5,000 answers in ~12 seconds on CPU**
 
-The project also revealed a **40% false-positive rate** on a small evaluation set, which is an important limitation I continue to investigate. :chatgpt-content-reference{index="6"}
+The project also revealed a **40% false-positive rate** on a small evaluation set, which is an important limitation I continue to investigate. 
 
 ---
 
@@ -119,8 +118,7 @@ The project also revealed a **40% false-positive rate** on a small evaluation se
 - TensorRT FP16: **0.79 ms**
 - **91% full-frame accuracy**
 
-An early-exit experiment reduced accuracy substantially, providing a useful engineering trade-off finding. :chatgpt-content-reference{index="7"}
-
+An early-exit experiment reduced accuracy substantially, providing a useful engineering trade-off finding. 
 ---
 
 ### 🚦 PTIS v2.0
@@ -133,8 +131,7 @@ Simulation results:
 - **23,314 observations**
 - **0 gate violations**
 
-Current results are simulation-based and have not yet been field-tested. :chatgpt-content-reference{index="8"}
-
+Current results are simulation-based and have not yet been field-tested. 
 ---
 
 ### 🔥 IncidentMind
@@ -148,8 +145,7 @@ It includes:
 - Clarification actions
 - Structured incident-response workflows
 
-Built as a team project during the **Meta PyTorch OpenEnv Hackathon 2026**. :chatgpt-content-reference{index="9"}
-
+Built as a team project during the **Meta PyTorch OpenEnv Hackathon 2026**. 
 ---
 
 ## Technical Interests
